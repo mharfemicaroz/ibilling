@@ -13293,14 +13293,14 @@ body.fixed-sidebar.mini-navbar .nav-label, body.fixed-sidebar.mini-navbar .navba
 }
 
 .btn-primary {
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: #C72B32;
+    border-color: #C72B32;
     color: #fff
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    background: #2196f3;
-    border-color: #2196f3;
+    background: #C72B32;
+    border-color: #C72B32;
     color: #fff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
 }
@@ -13788,8 +13788,8 @@ button.dim:active:before {
 }
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: #C72B32;
+    border-color: #C72B32;
     color: #fff;
     z-index: 2
 }
@@ -13939,7 +13939,7 @@ select:not([multiple]) {
 }
 
 .form-control:focus {
-    border-color: #2196f3
+    border-color: #C72B32
 }
 
 .has-success .form-control {
@@ -18043,17 +18043,17 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 
 .form-material > .form-control:focus {
     background-color: transparent;
-    -webkit-box-shadow: 0 2px 0 #2196f3;
-    box-shadow: 0 2px 0 #2196f3
+    -webkit-box-shadow: 0 2px 0 #C72B32;
+    box-shadow: 0 2px 0 #C72B32
 }
 
 .form-material > .form-control:focus + label {
-    color: #2196f3
+    color: #C72B32
 }
 
 .form-material > .form-control:focus ~ .input-group-addon {
-    -webkit-box-shadow: 0 2px 0 #2196f3;
-    box-shadow: 0 2px 0 #2196f3
+    -webkit-box-shadow: 0 2px 0 #C72B32;
+    box-shadow: 0 2px 0 #C72B32
 }
 
 .form-material > .form-control:focus + label, .form-material.floating.open > label {
@@ -18336,7 +18336,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 }
 
 .md-btn-primary, .md-btn-primary:active, .md-btn-primary:focus, .md-btn-primary:hover {
-    background: #2196f3;
+    background: #C72B32;
     color: #fff
 }
 
@@ -18369,7 +18369,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 
 .md-preloader svg circle {
     fill: none;
-    stroke: #2196f3;
+    stroke: #C72B32;
     stroke-linecap: round;
     -webkit-animation: arc 1.2s cubic-bezier(.4, 0, .2, 1) infinite;
     animation: arc 1.2s cubic-bezier(.4, 0, .2, 1) infinite
@@ -18661,7 +18661,7 @@ a.waves-effect .waves-ripple {
 }
 
 .md-fab.md-fab-primary {
-    background: #2196f3
+    background: #C72B32
 }
 
 .md-fab.md-fab-primary > i {
@@ -18685,7 +18685,7 @@ a.waves-effect .waves-ripple {
 
 
 .dashboard-stat.blue {
-    background-color: #2196f3
+    background-color: #C72B32
 }
 
 .dashboard-stat.purple {

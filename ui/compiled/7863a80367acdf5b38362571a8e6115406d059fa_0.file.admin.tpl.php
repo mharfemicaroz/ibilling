@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2024-09-18 04:07:30
+/* Smarty version 3.1.39, created on 2024-09-18 18:04:59
   from 'C:\xampp\htdocs\ibilling\ui\theme\ibilling\layouts\admin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_66ea8a421dca85_05979312',
+  'unifunc' => 'content_66eaa5cb008763_12025789',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7863a80367acdf5b38362571a8e6115406d059fa' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ibilling\\ui\\theme\\ibilling\\layouts\\admin.tpl',
-      1 => 1621318798,
+      1 => 1726653892,
       2 => 'file',
     ),
   ),
@@ -20,21 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66ea8a421dca85_05979312 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66eaa5cb008763_12025789 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <!DOCTYPE html>
-
-<!--
-Dynamically Auto Generated Page - Do Not Edit
-================================================================
-Software Name: iBilling - CRM, Accounting and Invoicing Software
-Author: CloudOneX
-Website: https://www.cloudonex.com/
-License: You must have a valid license in order to legally use this Software.
-========================================================================================================================
--->
 
 
 <html>
@@ -248,7 +238,7 @@ logout/"><?php echo $_smarty_tpl->tpl_vars['_L']->value['Logout'];?>
 <?php }?>
 
                 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_22927652766ea8a421d7ef3_66037501', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_201989088866eaa5cb002dd9_42153053', "content");
 ?>
 
 
@@ -434,7 +424,7 @@ ui/lib/ibilling.js"><?php echo '</script'; ?>
 <?php }?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_141302772866ea8a421dbb05_71688992', 'script');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_100900071266eaa5cb007517_49304245', 'script');
 ?>
 
 
@@ -456,12 +446,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_141302772866ea8a42
 </html>
 <?php }
 /* {block "content"} */
-class Block_22927652766ea8a421d7ef3_66037501 extends Smarty_Internal_Block
+class Block_201989088866eaa5cb002dd9_42153053 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_22927652766ea8a421d7ef3_66037501',
+    0 => 'Block_201989088866eaa5cb002dd9_42153053',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -469,12 +459,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "content"} */
 /* {block 'script'} */
-class Block_141302772866ea8a421dbb05_71688992 extends Smarty_Internal_Block
+class Block_100900071266eaa5cb007517_49304245 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'script' => 
   array (
-    0 => 'Block_141302772866ea8a421dbb05_71688992',
+    0 => 'Block_100900071266eaa5cb007517_49304245',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

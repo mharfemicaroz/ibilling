@@ -108,7 +108,7 @@ $jsvar =
     date('Y') .
     '\';
         
-        var ib_graph_primary_color = \'#2196f3\';
+        var ib_graph_primary_color = \'#C72B32\';
         var ib_graph_secondary_color = \'#eb3c00\';
 
 
@@ -1017,24 +1017,24 @@ switch ($action) {
             'xheader',
             '
 <link href="' .
-                APP_URL .
-                '/ui/lib/c3/c3.min.css" rel="stylesheet" type="text/css">
+            APP_URL .
+            '/ui/lib/c3/c3.min.css" rel="stylesheet" type="text/css">
 '
         );
 
         $ui->assign(
             'xfooter',
             Asset::js(['dashboard/graph']) .
-                '
+            '
 <script type="text/javascript" src="' .
-                APP_URL .
-                '/ui/lib/c3/d3.min.js"></script>
+            APP_URL .
+            '/ui/lib/c3/d3.min.js"></script>
 <script type="text/javascript" src="' .
-                APP_URL .
-                '/ui/lib/c3/c3.min.js"></script>
+            APP_URL .
+            '/ui/lib/c3/c3.min.js"></script>
 <script type="text/javascript" src="' .
-                APP_URL .
-                '/ui/lib/numeric.js"></script>
+            APP_URL .
+            '/ui/lib/numeric.js"></script>
 '
         );
 
@@ -1050,144 +1050,144 @@ var chart = c3.generate({
 	columns: [
 
 		[\'' .
-                $_L['Income'] .
-                '\', \'0\',' .
-                $d1i .
-                ',' .
-                $d2i .
-                ', ' .
-                $d3i .
-                ', ' .
-                $d4i .
-                ', ' .
-                $d5i .
-                ', ' .
-                $d6i .
-                ', ' .
-                $d7i .
-                ', ' .
-                $d8i .
-                ', ' .
-                $d9i .
-                ', ' .
-                $d10i .
-                ', ' .
-                $d11i .
-                ', ' .
-                $d12i .
-                ', ' .
-                $d13i .
-                ', ' .
-                $d14i .
-                ', ' .
-                $d15i .
-                ', ' .
-                $d16i .
-                ', ' .
-                $d17i .
-                ', ' .
-                $d18i .
-                ', ' .
-                $d19i .
-                ', ' .
-                $d20i .
-                ', ' .
-                $d21i .
-                ', ' .
-                $d22i .
-                ', ' .
-                $d23i .
-                ', ' .
-                $d24i .
-                ', ' .
-                $d25i .
-                ', ' .
-                $d26i .
-                ', ' .
-                $d27i .
-                ', ' .
-                $d28i .
-                ', ' .
-                $d29i .
-                ', ' .
-                $d30i .
-                ', ' .
-                $d31i .
-                '],
+            $_L['Income'] .
+            '\', \'0\',' .
+            $d1i .
+            ',' .
+            $d2i .
+            ', ' .
+            $d3i .
+            ', ' .
+            $d4i .
+            ', ' .
+            $d5i .
+            ', ' .
+            $d6i .
+            ', ' .
+            $d7i .
+            ', ' .
+            $d8i .
+            ', ' .
+            $d9i .
+            ', ' .
+            $d10i .
+            ', ' .
+            $d11i .
+            ', ' .
+            $d12i .
+            ', ' .
+            $d13i .
+            ', ' .
+            $d14i .
+            ', ' .
+            $d15i .
+            ', ' .
+            $d16i .
+            ', ' .
+            $d17i .
+            ', ' .
+            $d18i .
+            ', ' .
+            $d19i .
+            ', ' .
+            $d20i .
+            ', ' .
+            $d21i .
+            ', ' .
+            $d22i .
+            ', ' .
+            $d23i .
+            ', ' .
+            $d24i .
+            ', ' .
+            $d25i .
+            ', ' .
+            $d26i .
+            ', ' .
+            $d27i .
+            ', ' .
+            $d28i .
+            ', ' .
+            $d29i .
+            ', ' .
+            $d30i .
+            ', ' .
+            $d31i .
+            '],
 		[\'' .
-                $_L['Expense'] .
-                '\', \'0\',' .
-                $d1e .
-                ',' .
-                $d2e .
-                ', ' .
-                $d3e .
-                ', ' .
-                $d4e .
-                ', ' .
-                $d5e .
-                ', ' .
-                $d6e .
-                ', ' .
-                $d7e .
-                ', ' .
-                $d8e .
-                ', ' .
-                $d9e .
-                ', ' .
-                $d10e .
-                ', ' .
-                $d11e .
-                ', ' .
-                $d12e .
-                ', ' .
-                $d13e .
-                ', ' .
-                $d14e .
-                ', ' .
-                $d15e .
-                ', ' .
-                $d16e .
-                ', ' .
-                $d17e .
-                ', ' .
-                $d18e .
-                ', ' .
-                $d19e .
-                ', ' .
-                $d20e .
-                ', ' .
-                $d21e .
-                ', ' .
-                $d22e .
-                ', ' .
-                $d23e .
-                ', ' .
-                $d24e .
-                ', ' .
-                $d25e .
-                ', ' .
-                $d26e .
-                ', ' .
-                $d27e .
-                ', ' .
-                $d28e .
-                ', ' .
-                $d29e .
-                ', ' .
-                $d30e .
-                ', ' .
-                $d31e .
-                ']
+            $_L['Expense'] .
+            '\', \'0\',' .
+            $d1e .
+            ',' .
+            $d2e .
+            ', ' .
+            $d3e .
+            ', ' .
+            $d4e .
+            ', ' .
+            $d5e .
+            ', ' .
+            $d6e .
+            ', ' .
+            $d7e .
+            ', ' .
+            $d8e .
+            ', ' .
+            $d9e .
+            ', ' .
+            $d10e .
+            ', ' .
+            $d11e .
+            ', ' .
+            $d12e .
+            ', ' .
+            $d13e .
+            ', ' .
+            $d14e .
+            ', ' .
+            $d15e .
+            ', ' .
+            $d16e .
+            ', ' .
+            $d17e .
+            ', ' .
+            $d18e .
+            ', ' .
+            $d19e .
+            ', ' .
+            $d20e .
+            ', ' .
+            $d21e .
+            ', ' .
+            $d22e .
+            ', ' .
+            $d23e .
+            ', ' .
+            $d24e .
+            ', ' .
+            $d25e .
+            ', ' .
+            $d26e .
+            ', ' .
+            $d27e .
+            ', ' .
+            $d28e .
+            ', ' .
+            $d29e .
+            ', ' .
+            $d30e .
+            ', ' .
+            $d31e .
+            ']
 	],
         type: \'area-spline\',
          colors: {
             ' .
-                $_L['Income'] .
-                ': \'#23c6c8\',
+            $_L['Income'] .
+            ': \'#23c6c8\',
             ' .
-                $_L['Expense'] .
-                ': \'#ed5565\'
+            $_L['Expense'] .
+            ': \'#ed5565\'
         }
     }
 
@@ -1198,30 +1198,30 @@ var dchart = c3.generate({
     data: {
         columns: [
             [\'' .
-                $_L['Income'] .
-                '\', ' .
-                $mi .
-                '],
+            $_L['Income'] .
+            '\', ' .
+            $mi .
+            '],
             [\'' .
-                $_L['Expense'] .
-                '\', ' .
-                $me .
-                '],
+            $_L['Expense'] .
+            '\', ' .
+            $me .
+            '],
         ],
         type : \'donut\',
         colors: {
             ' .
-                $_L['Income'] .
-                ': \'#23c6c8\',
+            $_L['Income'] .
+            ': \'#23c6c8\',
             ' .
-                $_L['Expense'] .
-                ': \'#ed5565\'
+            $_L['Expense'] .
+            ': \'#ed5565\'
         }
     },
     donut: {
         title: "' .
-                $_L['Income_Vs_Expense'] .
-                '"
+            $_L['Income_Vs_Expense'] .
+            '"
     }
 });
 
@@ -1230,21 +1230,21 @@ var dchart = c3.generate({
 
         bootbox.prompt({
             title: "' .
-                $_L['Set New Goal for Net Worth'] .
-                '",
+            $_L['Set New Goal for Net Worth'] .
+            '",
             value: "' .
-                $v_goal .
-                '",
+            $v_goal .
+            '",
             buttons: {
         \'cancel\': {
             label: \'' .
-                $_L['Cancel'] .
-                '\'
+            $_L['Cancel'] .
+            '\'
         },
         \'confirm\': {
             label: \'' .
-                $_L['OK'] .
-                '\'
+            $_L['OK'] .
+            '\'
         }
     },
             callback: function(result) {
@@ -1253,8 +1253,8 @@ var dchart = c3.generate({
                 } else {
                    // alert(result);
                      $.post( "' .
-                U .
-                'settings/networth_goal/", { goal: result })
+            U .
+            'settings/networth_goal/", { goal: result })
         .done(function( data ) {
             location.reload();
         });
@@ -1267,23 +1267,23 @@ var dchart = c3.generate({
     $(\'.amount\').autoNumeric(\'init\', {
 
     aSign: \'' .
-                $config['currency_code'] .
-                ' \',
+            $config['currency_code'] .
+            ' \',
     dGroup: ' .
-                $config['thousand_separator_placement'] .
-                ',
+            $config['thousand_separator_placement'] .
+            ',
     aPad: ' .
-                $config['currency_decimal_digits'] .
-                ',
+            $config['currency_decimal_digits'] .
+            ',
     pSign: \'' .
-                $config['currency_symbol_position'] .
-                '\',
+            $config['currency_symbol_position'] .
+            '\',
     aDec: \'' .
-                $config['dec_point'] .
-                '\',
+            $config['dec_point'] .
+            '\',
     aSep: \'' .
-                $config['thousands_sep'] .
-                '\'
+            $config['thousands_sep'] .
+            '\'
 
     });
 
